@@ -1,0 +1,82 @@
+.top-top
+{
+    color: green;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    border-bottom:2px solid beige;
+}
+.top-head
+{
+    border-right:2px solid beige ;
+}
+.top-head-left
+{
+    width: 10%;
+    height: 70px;
+    display: block;
+    float: left;
+    border-right:2px solid beige ;
+}
+.top-head-right
+{
+    width: 90%;
+    height: 70px;
+    display: block;
+    float: right;
+}
+.web-pic
+{
+    width: 135px;
+    height: 70px;
+}
+.ERoad
+{
+    font-size: 50px;
+    color: darkmagenta;
+    float: left;
+    position:relative; left: 0.4em; top:-1em;
+}
+.login
+{
+    float: right;
+    font-size: 20px;
+    position: relative; right: 5%; top :-1.3em;
+    z-index: 1001;
+}
+.login a
+{
+    color: #777777;
+}
+.navigation-bar
+{
+    background-color: #0d6db6;
+    border-bottom:2px solid beige
+
+}
+.navigation-bar ul
+{
+    list-style-type: none;
+    text-align: center;
+    position: relative;top:-5.5em;
+
+}
+.navigation-bar li
+{
+    display: inline-block;
+}
+.navigation-bar a
+{
+    width: 21ex;
+    line-height: 30px;
+    color: #ffffff;
+    font-size:16px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+
+}
+.navigation-bar a:hover
+{
+    background-color: #357ebd ;
+}

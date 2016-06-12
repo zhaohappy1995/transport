@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=”viewport” content=”width=device-width″/>
+    <link href="../picture/webbiaozhi.ico" rel="shortcut icon">
+    <link href="../css/reset.css" rel="stylesheet" type="text/css" >
+    <link href="../css/top.css" rel="stylesheet" type="text/css">
+    <link href="../css/login.css" rel="stylesheet" type="text/css">
+    <link href="../css/bottom.css" rel="stylesheet" type="text/css">
+    <title>用户登录</title>
+</head>
+<body>
+<div class="top-top">
+    <label>用户登录</label>
+</div>
+<div class="top-head">
+    <div class="top-head-left">
+        <img src="../picture/webbiaozhi.jpg" class="web-pic">
+    </div>
+    <div class="top-head-right">
+        <label class="ERoad">ERoad</label>
+        <span class="login"><a href="login.html">登录/</a><a href="register.html">注册</a></span>
+    </div>
+</div>
+<div class="navigation-bar">
+    <ul >
+        <li>
+            <a href="#">主页</a>
+        </li>
+        <li>
+            <a href="#">信息查询</a>
+        </li>
+        <li>
+            <a href="#">公共交通信息</a>
+        </li>
+        <li>
+            <a href="#">城市交通信息</a>
+        </li>
+    </ul>
+</div>
+<div class="page-body">
+    <form class="login-box" action="ewinfhsd" method="get">
+        <fieldset class="box-body">
+            <label>用户名</label>
+            <input type="text" tabindex="1" placeholder="邮箱或手机号" required>
+            <label><a href="#" class="rLink" tabindex="5">忘记密码?</a>密码</label>
+            <input type="password" tabindex="2" required>
+        </fieldset>
+        <footer>
+            <label><input type="checkbox" tabindex="3">自动登录</label><br>
+            <input type="submit" class="btnLogin" value="登录" tabindex="4">
+            <input type="button" class="btnLogin" value="注册" onclick="window.location.reload('register.html')">
+        </footer>
+    </form>
+</div>
+<div class="page-bottom">
+    <footer id="bottom">
+        <label>网站底部</label>
+    </footer>
+</div>
+</body>
+</html>
